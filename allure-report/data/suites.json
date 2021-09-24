@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Amazon login functionality",
+    "children" : [ {
+      "name" : "login",
+      "uid" : "46b1b0e3c4b99f3a",
+      "parentUid" : "1416f363fcbacecb8792cdba4aee1f05",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632479940230,
+        "stop" : 1632479959125,
+        "duration" : 18895
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1416f363fcbacecb8792cdba4aee1f05"
+  } ]
+}

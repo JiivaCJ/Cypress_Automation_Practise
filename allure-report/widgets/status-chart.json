@@ -1,0 +1,11 @@
+[ {
+  "uid" : "46b1b0e3c4b99f3a",
+  "name" : "login",
+  "time" : {
+    "start" : 1632479940230,
+    "stop" : 1632479959125,
+    "duration" : 18895
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

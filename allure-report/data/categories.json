@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `#nav-link-accountList-nav-line-1`, but never found it.",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "46b1b0e3c4b99f3a",
+        "parentUid" : "0937a33a3a8d1a869a6d3b61bc3b4d45",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632479940230,
+          "stop" : 1632479959125,
+          "duration" : 18895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0937a33a3a8d1a869a6d3b61bc3b4d45"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
