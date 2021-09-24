@@ -1,0 +1,13 @@
+{   
+  "URL":"https://amazon.in",
+  "accountprofile":"#nav-link-accountList-nav-line-1",
+  "email":"#ap_email",
+  "continuebtn":"div.app.public.login-page:nth-child(1) div.public-container div.public-container-centered div.public-card-sm div.card div.card-body.py-3 form:nth-child(3) > button.btn.btn-primary.btn-block.disabled:nth-child(3)",
+  "nextbtn_R":"//button[contains(text(),'Next')]",
+  "password":"#ap_password",
+  "signinbtn":"#signInSubmit",
+  "URL_R":"https://sub-sub-join.testing.rosterfy.com/login",
+  "emailIN_R" : "#__BVID__17",
+  "passwordIN_R" : "#__BVID__17",
+  "accountprofile_R" : "body.app.header-fixed.sidebar-fixed.sidebar-hidden:nth-child(2) div.app:nth-child(1) header.app-header.navbar ul.navbar-nav.ml-auto:nth-child(4) li.nav-item.b-nav-dropdown.dropdown:nth-child(4) a.nav-link.dropdown-toggle.dropdown-toggle-no-caret > i.fas.fa-user"
+}
