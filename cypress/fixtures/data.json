@@ -5,7 +5,10 @@
   "title":"Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in",
   "emailD_R":"testing+tournament_admin@rosterfy.com",
   "Password_R":"Secret1234",
-  "accountName_R": "//strong[contains(text(),'Admin')]"
+  "accountName_R": "//strong[contains(text(),'Admin')]",
+  "productname": "Oneplus nord ce 5g"
+
+
 
 
 }

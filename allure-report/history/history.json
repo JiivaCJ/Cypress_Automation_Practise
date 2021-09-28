@@ -1,21 +1,39 @@
 {
-  "08a4ab07aafd264cb321ed4fcbed5929" : {
+  "49aba36cb87b24090502ef3ebd4e051a" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "46b1b0e3c4b99f3a",
-      "status" : "failed",
-      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `#nav-link-accountList-nav-line-1`, but never found it.",
+      "uid" : "60e39a0f7086d1c8",
+      "status" : "passed",
       "time" : {
-        "start" : 1632479940230,
-        "stop" : 1632479959125,
-        "duration" : 18895
+        "start" : 1632644319707,
+        "stop" : 1632644325024,
+        "duration" : 5317
+      }
+    } ]
+  },
+  "08a4ab07aafd264cb321ed4fcbed5929" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e2cb728ef50cc81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632644279443,
+        "stop" : 1632644306632,
+        "duration" : 27189
       }
     } ]
   }

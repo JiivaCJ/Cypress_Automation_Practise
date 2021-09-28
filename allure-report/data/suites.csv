@@ -1,2 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Fri Sep 24 16:09:00 IST 2021","Fri Sep 24 16:09:19 IST 2021","18895","","Amazon login functionality","","","","login",""
+"passed","Sun Sep 26 13:47:59 IST 2021","Sun Sep 26 13:48:26 IST 2021","27189","","Amazon login functionality","","","","login",""
+"passed","Sun Sep 26 13:48:39 IST 2021","Sun Sep 26 13:48:45 IST 2021","5317","","Loreal Web functionality","","","","login",""

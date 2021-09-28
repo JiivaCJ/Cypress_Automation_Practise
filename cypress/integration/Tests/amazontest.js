@@ -1,14 +1,20 @@
 import LoginPage from '../../Pages/login_page'
-describe('Amazon login functionality', () => {
-    it('login', () => {
+import data from '../../fixtures/data.json'
 
-        
-        LoginPage.LaunchURl;
-        LoginPage.navigateToSignPage
-        LoginPage.EnterEmailID;
-        LoginPage.ClickContinueButton;
-        LoginPage.EnterPassword;
-        LoginPage.ClickSignInButton;
-        LoginPage.VerifyAccountProfile;
+describe('Amazon login functionality', () => {//test suite
+
+    beforeEach(() => { //hooks
+        LoginPage.LaunchURl();
+        // LoginPage.navigateToSignPage();
+    });
+    it.only('', () => {//test case
+        // LoginPage.login(data.email,data.password);
+        LoginPage.SearchProduct(data.productname,'{enter}')
+    });
+
+    it.skip('login', () => {
+        LoginPage.testLogin();   
+        LoginPage.VerifyAccountProfile();
+    
     });
 });

@@ -6,8 +6,6 @@
   "nextbtn_R":"//button[contains(text(),'Next')]",
   "password":"#ap_password",
   "signinbtn":"#signInSubmit",
-  "URL_R":"https://sub-sub-join.testing.rosterfy.com/login",
-  "emailIN_R" : "#__BVID__17",
-  "passwordIN_R" : "#__BVID__17",
-  "accountprofile_R" : "body.app.header-fixed.sidebar-fixed.sidebar-hidden:nth-child(2) div.app:nth-child(1) header.app-header.navbar ul.navbar-nav.ml-auto:nth-child(4) li.nav-item.b-nav-dropdown.dropdown:nth-child(4) a.nav-link.dropdown-toggle.dropdown-toggle-no-caret > i.fas.fa-user"
+  "searchbar":"#twotabsearchtextbox",
+  "productselector":".a-size-medium"
 }
