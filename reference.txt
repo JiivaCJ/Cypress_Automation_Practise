@@ -1,0 +1,7 @@
+    errorFromInvalid_Email(){
+
+        //cy.get(".a-alert-heading").contains("There was a problem")
+        cy.get(".a-alert-heading").should('have.text',("There was a problem"));
+        cy.get(elements.errorFromInvalid_Email).contains(data.errorrmessage_emailid)
+
+    }

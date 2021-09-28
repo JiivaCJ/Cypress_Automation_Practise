@@ -2,10 +2,15 @@
   "URL":"https://amazon.in",
   "accountprofile":"#nav-link-accountList-nav-line-1",
   "email":"#ap_email",
+  "invalid_email" :"#ap_email",
   "continuebtn":"#continue",
   "nextbtn_R":"//button[contains(text(),'Next')]",
   "password":"#ap_password",
+  "invalid_password" :"#ap_password",
   "signinbtn":"#signInSubmit",
   "searchbar":"#twotabsearchtextbox",
-  "productselector":".a-size-medium"
+  "productselector":".a-size-medium",
+  "error_Message_invalidemail":".a-alert-content"
+
+
 }

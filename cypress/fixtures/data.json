@@ -3,10 +3,14 @@
   "email": "jeevamech06@gmail.com",
   "password": "jeevanandham@210512114305",
   "title":"Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in",
+  "invalid_email":"fhhtffjyj@gmail.com",
+  "invalid_password":"527434333",
   "emailD_R":"testing+tournament_admin@rosterfy.com",
   "Password_R":"Secret1234",
   "accountName_R": "//strong[contains(text(),'Admin')]",
-  "productname": "Oneplus nord ce 5g"
+  "productname": "Oneplus nord ce 5g",
+  "errorrmessage_emailid":"There was a problem",
+  "In_password": "210512114305"
 
 
 
