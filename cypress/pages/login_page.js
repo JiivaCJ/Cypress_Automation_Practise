@@ -19,7 +19,7 @@ class LoginPage{
         cy.get(elements.signinbtn).click();
     }
     VerifyAccountProfile(){
-        cy.get(elements.accountprofile).should('have.text',data.accountname)
+        cy.get(elements.accountprofile).should('have.text',"Hello, Chinnadurai")
     }
     SearchProduct(product,key){
         cy.get(elements.searchbar).type(product).type(key);
@@ -33,13 +33,13 @@ class LoginPage{
     }
     errorFromInvalid_Email(){
 
-        cy.get(".a-alert-heading").contains('have.text',"There was a problem");   
+        cy.get(".a-alert-heading").should('have.text',"There was a problem");   
 
     }
 
 
     errorFromInvalid_Password(){
-        cy.get(".a-alert-heading").should('have.text',"Important Message!");
+        cy.get(".a-alert-heading").should('have.text',"There was a problem");
 
     }
 

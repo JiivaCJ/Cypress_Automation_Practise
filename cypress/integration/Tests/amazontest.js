@@ -22,7 +22,7 @@ describe('Amazon login functionality', () => {//test suite
         LoginPage.VerifyAccountProfile();
     });
 
-    it.only('product search', () => {//test case
+    it('product search', () => {//test case
         LoginPage.login(data.email,data.password);
         LoginPage.SearchProduct(data.productname,'{enter}')
     });
