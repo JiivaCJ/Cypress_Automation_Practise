@@ -14,14 +14,13 @@ describe('Amazon login functionality', () => {//test suite
      
     });     
 
-    it('Login With invalid password', () => {
-        
-        LoginPage.EnterEmailID(data.email);
+    it.only('Login With invalid password', () => {
+        LoginPage.login(data.email,data.In_password);
         LoginPage.errorFromInvalid_Password();
     });
 
-    it('login', () => {
-        LoginPage.login();   
+    it.only('login', () => {
+        LoginPage.login(data.email, data.password);   
         LoginPage.VerifyAccountProfile();
     
     });

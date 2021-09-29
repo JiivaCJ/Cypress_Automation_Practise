@@ -18,8 +18,8 @@ class LoginPage{
         cy.get(elements.password).type(password);
         cy.get(elements.signinbtn).click();
     }
-    VerifyAccountProfile(accountname){
-        cy.get(elements.accountprofile).should('have.text',accountname)
+    VerifyAccountProfile(){
+        cy.get(elements.accountprofile).should('have.text',data.accountname)
     }
     SearchProduct(product,key){
         cy.get(elements.searchbar).type(product).type(key);
@@ -40,14 +40,10 @@ class LoginPage{
 
 
     errorFromInvalid_Password(){
-        cy.get("#ap_password").type("527434333");
-        cy.get("#signInSubmit").click();
-        cy.get(".a-alert-heading").should('have.text',("Important Message!"));
+        cy.get(".a-alert-heading").should('have.text',"Important Message!");
 
     }
 
-    testLogin(){
-        
-    }
+
 }
 export default new LoginPage();
