@@ -1,3 +1,6 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Sep 26 13:47:59 IST 2021","Sun Sep 26 13:48:26 IST 2021","27189","","Amazon login functionality","","","","login",""
-"passed","Sun Sep 26 13:48:39 IST 2021","Sun Sep 26 13:48:45 IST 2021","5317","","Loreal Web functionality","","","","login",""
+"passed","Wed Sep 29 11:24:22 IST 2021","Wed Sep 29 11:24:32 IST 2021","10357","","Loreal Web functionality","","","","login",""
+"failed","Wed Sep 29 11:23:50 IST 2021","Wed Sep 29 11:24:03 IST 2021","13226","","Amazon login functionality","","","","product search",""
+"failed","Wed Sep 29 11:23:14 IST 2021","Wed Sep 29 11:23:27 IST 2021","13324","","Amazon login functionality","","","","Login With invalid username",""
+"failed","Wed Sep 29 11:23:37 IST 2021","Wed Sep 29 11:23:50 IST 2021","12338","","Amazon login functionality","","","","login",""
+"passed","Wed Sep 29 11:23:27 IST 2021","Wed Sep 29 11:23:37 IST 2021","9950","","Amazon login functionality","","","","Login With invalid password",""

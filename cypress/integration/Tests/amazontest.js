@@ -10,24 +10,19 @@ describe('Amazon login functionality', () => {//test suite
     it('Login With invalid username', () => {
         LoginPage.EnterEmailID(data.invalid_email);
         LoginPage.errorFromInvalid_Email();
-
-     
     });     
 
-    it.only('Login With invalid password', () => {
+    it('Login With invalid password', () => {
         LoginPage.login(data.email,data.In_password);
         LoginPage.errorFromInvalid_Password();
     });
 
-    it.only('login', () => {
+    it('login', () => {
         LoginPage.login(data.email, data.password);   
         LoginPage.VerifyAccountProfile();
-    
     });
 
-
-
-    it('product search', () => {//test case
+    it.only('product search', () => {//test case
         LoginPage.login(data.email,data.password);
         LoginPage.SearchProduct(data.productname,'{enter}')
     });

@@ -4,12 +4,12 @@
     "uid" : "1416f363fcbacecb8792cdba4aee1f05",
     "name" : "Amazon login functionality",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 4
     }
   }, {
     "uid" : "6e3826691f12949d980d444055c32bff",

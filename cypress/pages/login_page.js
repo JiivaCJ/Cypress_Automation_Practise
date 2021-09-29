@@ -33,8 +33,7 @@ class LoginPage{
     }
     errorFromInvalid_Email(){
 
-        cy.get(".a-alert-heading").contains("There was a problemThere was a problem")
-        
+        cy.get(".a-alert-heading").contains('have.text',"There was a problem");   
 
     }
 
